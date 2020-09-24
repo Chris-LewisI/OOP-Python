@@ -1,4 +1,4 @@
-# author: CHRIS IBRAHEEM
+# author: Chris Ibraheem
 # OOP Assignment 4: Take the average of the values from the user until they input 0
 # When the user enters 0 to end the numbers entered by the user, 
 # that last 0 is NOT to be included in the average calculation.
