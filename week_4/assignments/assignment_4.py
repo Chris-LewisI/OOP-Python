@@ -3,7 +3,7 @@
 # When the user enters 0 to end the numbers entered by the user, 
 # that last 0 is NOT to be included in the average calculation.
 
-print(f"Enter 0 or Ctrl + C to end the program and show average of values...\n")
+print(f"Enter Ctrl + C to cancel the program OR\nEnter `0` to stop the program and show the average of the values...\n")
 
 #initialize variables
 amountOfElements = 0
