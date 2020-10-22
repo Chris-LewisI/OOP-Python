@@ -10,3 +10,7 @@ img {
     width:180px;
     height: auto;
 }
+#pokemon {
+    color: white;
+    font-size: 30px;
+}

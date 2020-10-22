@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flask Project</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/styles.css') }}">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <center><h1>Flask Project!</h1></center><br>
+    <center><h1>Current Route: '/pokemon'</h1></center><br>
+        <ol> 
+            <!-- For loop logic of jinja template -->
+            {%for i in range(0, len)%} 
+              
+                <li id="pokemon">{{Pokemons[i]}}</li> 
+            {%endfor%} 
+            </ol> 
+</html>

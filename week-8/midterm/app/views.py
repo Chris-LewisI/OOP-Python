@@ -1,8 +1,18 @@
 from app import app
 from flask import render_template, request, redirect, url_for
 
+
+# making list of pokemons 
+Pokemons =["Pikachu", "Charizard", "Squirtle", "Jigglypuff",  
+           "Bulbasaur", "Gengar", "Charmander", "Mew", "Lugia", "Gyarados"] 
+
 # app.route() instructs the program that when the user routes to a specific page they will be presented with what follows
 # This is the default page that the server will direct you to upon connecting to localhost:5000
+@app.route('/pokemon', methods=["GET", "POST"])
+def pokemon():
+    if request.method == "GET":
+        return render_template("pokemon.html", len = len(Pokemons), Pokemons = Pokemons)
+
 @app.route('/')
 def hello():
     return "<center><h1>Hello World!</center></h1>"

@@ -10,8 +10,13 @@
     <center>
         <form action = "http://localhost:5000/login" method = "post">
             <input type = "text" name = "nm" placeholder = "NAME"> </input>
-            <button type="submit">Connect</button>  
+            <button type="submit">POST Name</button>  
         </form>
+        <br>
+        <form action = "http://localhost:5000/pokemon" method = "get">
+            <button type="submit">GET Pokemon</button>  
+        </form>
+        <br>
     </center>
     <center><img src= "{{ url_for('static', filename='images/flask-logo.png') }}"></center>
 </html>
