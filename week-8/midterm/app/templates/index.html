@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flask Project</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/styles.css') }}">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <center><h1 class="header">Flask Project!</h1></center><br>
+    <center><h1 id="route">Current Route: '/index'</h1></center><br>
+    <center><img src= "{{ url_for('static', filename='images/flask-logo.png') }}"></center>
+</html>

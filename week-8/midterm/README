@@ -1,0 +1,10 @@
+Author: Chris Ibraheem
+
+H I S T O R Y: 
+    Flask is a web application framework written in Python. It was developed by Armin Ronacher, who led a team of international Python enthusiasts called Poocco. Flask is based on the Werkzeg WSGI toolkit and the Jinja2 template engine.Both are Pocco projects. src: https://pythonbasics.org/what-is-flask-python/
+
+F L A S K:
+    Flask is a web application framework that is used to easily make web applications. It is basically a backend for websites that is fully written in Python. It manages webpages, routing, requests, responses, and more all through a strictly typed Python format. The benefit of having it strictly typed is that since everything needs to be explicitly written it improves readability for the developer or anyone who may be reading the source code.
+
+P O P U L A R I T Y:
+    Flask has been used for major companies and projects such as Pinterest, Twilio, LinkedIn, and even Obama's 2012 Presidential Campaign.
