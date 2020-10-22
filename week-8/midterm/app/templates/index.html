@@ -5,7 +5,13 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/styles.css') }}">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     </head>
-    <center><h1 class="header">Flask Project!</h1></center><br>
-    <center><h1 id="route">Current Route: '/index'</h1></center><br>
+    <center><h1>Flask Project!</h1></center><br>
+    <center><h1>Current Route: '/index'</h1></center><br>
+    <center>
+        <form action = "http://localhost:5000/login" method = "post">
+            <input type = "text" name = "nm" placeholder = "NAME"> </input>
+            <button type="submit">Connect</button>  
+        </form>
+    </center>
     <center><img src= "{{ url_for('static', filename='images/flask-logo.png') }}"></center>
 </html>
