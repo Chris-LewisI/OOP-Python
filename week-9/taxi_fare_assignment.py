@@ -23,13 +23,6 @@ def fare_calculator(kilometers):
     #total_fare sums the two previous values
     total_fare = BASE_PRICE + travel_price
     #take only two decimal places here with formatted_fare
-    formatted_fare = "{:.2f}".format(total_fare)
-    #print the result!
-    # print(f'${formatted_fare}')
+    formatted_fare = "${:.2f}".format(total_fare)
+    #return the result!
     return formatted_fare
-
-#takes the kilometers input from the user
-kilometers = float(input())
-#adds the kilometers input as the argument for the function created earlier
-formatted_fare = fare_calculator(kilometers)
-print(f'${formatted_fare}')
